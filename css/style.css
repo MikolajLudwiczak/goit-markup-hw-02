@@ -280,6 +280,10 @@ h2 {
     margin-left: 25px;
 }
 
+.item-img {
+    margin-top: 0px;
+}
+
 .item-portfolio>h3{
     padding-left: 24px;
     font-weight: 700;
