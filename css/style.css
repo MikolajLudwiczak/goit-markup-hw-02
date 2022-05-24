@@ -44,13 +44,12 @@ a {
     line-height: 31px;
     letter-spacing: 0.03em;
     text-decoration: none;
-    cursor:  default;
+    cursor:  pointer;
 }
 
 .logo-white {
     color: #FFF;
     text-decoration: none;
-    cursor: default;
 }
 
 .logo-black {
@@ -59,12 +58,10 @@ a {
 
 .logo-blue {
     color: #2196F3;
-    cursor: default;
 }
 
 .logo-footer {
     text-decoration: none;
-    cursor: default;
 }
 
 .service {
@@ -259,6 +256,10 @@ h2 {
     border: 0px;
 }
 
+.line {
+    display: inline-block;
+}
+
 .portfolio {
     width: 1170px;
     height: 1360px;
@@ -272,8 +273,7 @@ h2 {
     list-style-type: none;
     background: #ffffff;
     border: 1px solid #eeeeee;
-    display: flex;
-    justify-content: space-evenly;
+    display: inline-block;
 }
 
 .item-des {
@@ -281,7 +281,7 @@ h2 {
 }
 
 .item-img {
-    margin-top: 0px;
+    margin: 0px;
 }
 
 .item-portfolio>h3{
@@ -303,10 +303,6 @@ h2 {
 
 }
 
-.line {
-    display: flex;
-    justify-content: space-evenly;
-}
 .adress {
     color: #FFF;
 }
@@ -348,7 +344,6 @@ h2 {
     width: 145px;
     height: 31px;
     margin-left: 215px;
-
     font-family: "Raleway";
     font-weight: 700;
     font-size: 26px;
@@ -357,7 +352,7 @@ h2 {
 }
 
 .logo-footer:hover {
-    cursor: default;
+    cursor: pointer;
 }
 
 #contact {
@@ -377,4 +372,7 @@ address {
 
 .footer-contact {
     margin-left: 215px;
+    text-decoration: none;
+    color: #757575;
+    display: block;
 }
